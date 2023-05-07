@@ -12,6 +12,7 @@ struct StockRankApp: App {
     var body: some Scene {
         WindowGroup {
             StockRankView()
+                .preferredColorScheme(.dark)
         }
     }
 }

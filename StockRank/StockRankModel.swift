@@ -16,6 +16,8 @@ struct StockModel: Identifiable {
     let name: String
     let price: Int
     let diff: Double
+    
+    var isFavorite: Bool = false
 }
 
 extension StockModel {

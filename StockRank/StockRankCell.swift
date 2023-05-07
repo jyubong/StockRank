@@ -39,7 +39,7 @@ struct StockRankCell: View {
                 .renderingMode(.template)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 30, height: 30)
-                .foregroundColor(.gray)
+                .foregroundColor(stock.isFavorite ? .white : .gray)
         }
         .padding()
         .frame(maxWidth:.infinity, minHeight: 80)
