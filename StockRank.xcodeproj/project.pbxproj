@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF02FE362A07461500BE6C99 /* StockRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02FE352A07461500BE6C99 /* StockRankCell.swift */; };
 		BF184A4A2A07453000C1A23F /* StockRankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A492A07453000C1A23F /* StockRankApp.swift */; };
-		BF184A4C2A07453000C1A23F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A4B2A07453000C1A23F /* ContentView.swift */; };
+		BF184A4C2A07453000C1A23F /* StockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A4B2A07453000C1A23F /* StockRankView.swift */; };
 		BF184A4E2A07453100C1A23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF184A4D2A07453100C1A23F /* Assets.xcassets */; };
 		BF184A512A07453100C1A23F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF184A502A07453100C1A23F /* Preview Assets.xcassets */; };
 		BF184A5B2A07453100C1A23F /* StockRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A5A2A07453100C1A23F /* StockRankTests.swift */; };
 		BF184A652A07453100C1A23F /* StockRankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A642A07453100C1A23F /* StockRankUITests.swift */; };
 		BF184A672A07453100C1A23F /* StockRankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A662A07453100C1A23F /* StockRankUITestsLaunchTests.swift */; };
+		BF2B573B2A07716B00549F3E /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B573A2A07716B00549F3E /* StockDetailView.swift */; };
+		BFC0EFCF2A07458A009057FF /* StockRankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EFCE2A07458A009057FF /* StockRankModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF02FE352A07461500BE6C99 /* StockRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankCell.swift; sourceTree = "<group>"; };
 		BF184A462A07453000C1A23F /* StockRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF184A492A07453000C1A23F /* StockRankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankApp.swift; sourceTree = "<group>"; };
-		BF184A4B2A07453000C1A23F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF184A4B2A07453000C1A23F /* StockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankView.swift; sourceTree = "<group>"; };
 		BF184A4D2A07453100C1A23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF184A502A07453100C1A23F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF184A562A07453100C1A23F /* StockRankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockRankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,8 @@
 		BF184A602A07453100C1A23F /* StockRankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockRankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF184A642A07453100C1A23F /* StockRankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITests.swift; sourceTree = "<group>"; };
 		BF184A662A07453100C1A23F /* StockRankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF2B573A2A07716B00549F3E /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		BFC0EFCE2A07458A009057FF /* StockRankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				BF184A492A07453000C1A23F /* StockRankApp.swift */,
-				BF184A4B2A07453000C1A23F /* ContentView.swift */,
+				BF184A4B2A07453000C1A23F /* StockRankView.swift */,
+				BF02FE352A07461500BE6C99 /* StockRankCell.swift */,
+				BF2B573A2A07716B00549F3E /* StockDetailView.swift */,
+				BFC0EFCE2A07458A009057FF /* StockRankModel.swift */,
 				BF184A4D2A07453100C1A23F /* Assets.xcassets */,
 				BF184A4F2A07453100C1A23F /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF184A4C2A07453000C1A23F /* ContentView.swift in Sources */,
+				BF184A4C2A07453000C1A23F /* StockRankView.swift in Sources */,
+				BF2B573B2A07716B00549F3E /* StockDetailView.swift in Sources */,
+				BFC0EFCF2A07458A009057FF /* StockRankModel.swift in Sources */,
+				BF02FE362A07461500BE6C99 /* StockRankCell.swift in Sources */,
 				BF184A4A2A07453000C1A23F /* StockRankApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
