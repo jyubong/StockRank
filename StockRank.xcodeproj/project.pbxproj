@@ -16,6 +16,7 @@
 		BF184A652A07453100C1A23F /* StockRankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A642A07453100C1A23F /* StockRankUITests.swift */; };
 		BF184A672A07453100C1A23F /* StockRankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF184A662A07453100C1A23F /* StockRankUITestsLaunchTests.swift */; };
 		BF2B573B2A07716B00549F3E /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B573A2A07716B00549F3E /* StockDetailView.swift */; };
+		BF2B573F2A077EFB00549F3E /* StockRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B573E2A077EFB00549F3E /* StockRankViewModel.swift */; };
 		BFC0EFCF2A07458A009057FF /* StockRankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EFCE2A07458A009057FF /* StockRankModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		BF184A642A07453100C1A23F /* StockRankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITests.swift; sourceTree = "<group>"; };
 		BF184A662A07453100C1A23F /* StockRankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF2B573A2A07716B00549F3E /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		BF2B573E2A077EFB00549F3E /* StockRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewModel.swift; sourceTree = "<group>"; };
 		BFC0EFCE2A07458A009057FF /* StockRankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				BF184A4B2A07453000C1A23F /* StockRankView.swift */,
 				BF02FE352A07461500BE6C99 /* StockRankCell.swift */,
 				BF2B573A2A07716B00549F3E /* StockDetailView.swift */,
+				BF2B573E2A077EFB00549F3E /* StockRankViewModel.swift */,
 				BFC0EFCE2A07458A009057FF /* StockRankModel.swift */,
 				BF184A4D2A07453100C1A23F /* Assets.xcassets */,
 				BF184A4F2A07453100C1A23F /* Preview Content */,
@@ -269,6 +272,7 @@
 				BF184A4C2A07453000C1A23F /* StockRankView.swift in Sources */,
 				BF2B573B2A07716B00549F3E /* StockDetailView.swift in Sources */,
 				BFC0EFCF2A07458A009057FF /* StockRankModel.swift in Sources */,
+				BF2B573F2A077EFB00549F3E /* StockRankViewModel.swift in Sources */,
 				BF02FE362A07461500BE6C99 /* StockRankCell.swift in Sources */,
 				BF184A4A2A07453000C1A23F /* StockRankApp.swift in Sources */,
 			);
